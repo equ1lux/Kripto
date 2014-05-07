@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode url="Default.aspx" title="Home">
+    <siteMapNode url="ChangePassword.aspx" title="ChangePassword"/>
+    <siteMapNode url="Admin\AdminPage1.aspx" title="Admin" />
+  </siteMapNode>
+</siteMap>

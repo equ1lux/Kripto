@@ -13,12 +13,20 @@
             <AnonymousTemplate>
                 <p>You are not logged in!</p>
                 <p><a href="Login.aspx">Log in</a> </p>
-                <p><a href="CreateUser.aspx">Sign Up</a>
+                <p><a href="CreateUser.aspx">Sign Up</a></p>
+                <p><a href="ForgotPassword.aspx">Forgot your Password?</a></p>
             </AnonymousTemplate>
             <LoggedInTemplate>
+              <center><div id="login">
                 You are logged in as: 
                 <asp:LoginName ID="LoginName1" runat="server" />
-                <asp:LoginStatus ID="LoginStatus1" runat="server" /> </p>
+                <asp:LoginStatus ID="LoginStatus1" runat="server" />
+               </div></center>
+
+               <asp:Menu ID="Menu2" Runat="server" DataSourceID="SiteMapDataSource1" Orientation="Vertical" 
+               StaticDisplayLevels="3" >
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
             </LoggedInTemplate>
         </asp:LoginView>
     </div>

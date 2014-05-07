@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-      <asp:CreateUserWizard ID="CreateUserWizard1" runat="server">
+      <asp:CreateUserWizard ID="CreateUserWizard1" runat="server" OnContinueButtonClick="Click">
         <WizardSteps>
             <asp:CreateUserWizardStep ID="CreateUserWizardStep1" runat="server">
             </asp:CreateUserWizardStep>
