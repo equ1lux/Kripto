@@ -1,0 +1,3 @@
+Data Source=.\SQLEXPRESS;AttachDbFilename=G:\Users\QwertyNew\Documents\GitHub\Kripto\App_Data\ASPNETDB.MDF;Integrated Security=True;User Instance=True
+
+.NET Framework Data Provider for SQL Server
